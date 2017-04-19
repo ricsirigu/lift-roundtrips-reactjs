@@ -3,6 +3,7 @@ package code.snippet
 import code.lib.EmptyRoundTrip
 import code.model.ArticleFactory
 import net.liftweb.http.{RoundTripHandlerFunc, RoundTripInfo}
+import net.liftweb.json.JsonAST.JValue
 import net.liftweb.json.JsonDSL._
 
 /**
@@ -10,7 +11,7 @@ import net.liftweb.json.JsonDSL._
   */
 trait ArticleRT extends EmptyRoundTrip{
 
-  protected def allArticles(func: RoundTripHandlerFunc): Unit = {
+  protected def allArticles(value: JValue, func: RoundTripHandlerFunc): Unit = {
     val jsonArticles = ArticleFactory.build.map(a => ("id" -> a.id) ~ ("name" -> a.name))
     func.send(jsonArticles)
   }

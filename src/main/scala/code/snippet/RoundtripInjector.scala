@@ -8,7 +8,7 @@ import scala.xml.NodeSeq
 /**
   * Created by Riccardo Sirigu on 19/04/2017.
   */
-class RoundtripInjector extends SimpleRT{
+class RoundtripInjector extends ArticleRT with SimpleRT{
   def render(): NodeSeq = {
     val functions = (for {
       session <- S.session
