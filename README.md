@@ -8,4 +8,10 @@ With Lift 3, we introduce the idea of Round Trips: a client-side request that's 
 
 David Pollak @dpp in  [Angular JS, Lift 3, and Streaming Promises](https://blog.goodstuff.im/roundtrip_promises)
 
+### How to run
 
+You need to have installed NodeJs and npm on your machine
+
+Run sbt and type **~container:start** to start the Lift backend
+
+Type **npm run watch** on your terminal to launch nodejs and webpack
