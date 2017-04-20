@@ -14,4 +14,6 @@ You need to have installed NodeJs and npm on your machine
 
 Run sbt and type **~container:start** to start the Lift backend
 
+Type **npm i** to download all the dependencies
+
 Type **npm run watch** on your terminal to launch nodejs and webpack
