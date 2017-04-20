@@ -4,9 +4,8 @@
 
 ...Roundtrips?
 
-**Lift 3** introduced the idea of Round Trips: a client-side request that's sent to the server where the client receives a Streaming Promise. 
+With Lift 3, we introduce the idea of Round Trips: a client-side request that's sent to the server where the client receives a Streaming Promise, the server performs its computations and when the results are ready, they get pushed to the client… and if there are multiple results, the multiple results are pushed to the client as the results become available.
 
-The server performs its computations and when the results are ready, they get pushed to the client. 
+David Pollak @dpp in  [Angular JS, Lift 3, and Streaming Promises](https://blog.goodstuff.im/roundtrip_promises)
 
-If there are multiple results, they are pushed to the client when they become available.
 
