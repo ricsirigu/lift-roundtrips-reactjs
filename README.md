@@ -1,4 +1,4 @@
-# lift-reactjs
+# lift-roundtrips-reactjs
 
 ### A simple SPA with Lift 3 roundtrips and Facebook's ReactJs 
 
