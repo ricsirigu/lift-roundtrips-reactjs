@@ -1,6 +1,6 @@
-# lift-roundtrips-reactjs
+# lift-roundtrips-react
 
-### A simple SPA with Lift 3 roundtrips and Facebook's ReactJs 
+### A simple SPA with Lift 3 roundtrips and Facebook's React 16
 
 ...Roundtrips?
 
@@ -12,12 +12,12 @@ David Pollak @dpp in  [Angular JS, Lift 3, and Streaming Promises](https://blog.
 
 You need to have installed NodeJs and npm on your machine
 
-Run sbt and type **~container:start** to start the Lift backend
+Run sbt and type `cs` to start the Lift backend
 
-Type **npm i** to download all the dependencies
+Type `npm i` to download all the dependencies
 
-Type **npm run watch** on your terminal to launch nodejs and webpack
+Type `npm run watch` on your terminal to launch nodejs and webpack
 
-Go to localhost:8080
+Go to `localhost:8080`
 
 Enjoy
